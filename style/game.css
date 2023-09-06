@@ -182,26 +182,62 @@ border: none;
     display: flex;
     padding: 50px 150px;
     justify-content: space-between;
+
+   
 }
 
 .play-title{
    
     text-align: left;
 }
-.first-pic{
-    height: 200px;
-    width: 200px;
-}
-
-.scoend-pic{
+.scoend-photo{
+    background-image: url(../images/Rectangle\ 55.png);
     width: 500px;
     height: 400px;
 }
+.first-pic{
+    height: 200px;
+    width: 200px;
+   padding-top: 280px;
+   
+    
+    
+}
+
+.scoend-pic{
+  
+}
+
+.pic-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 50px 150px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+   
+    
+}
+
+.photo{
+    display: flex;
+    gap: 10px;
+   background-color: antiquewhite;
+   border-radius: 10px;
+   justify-content: center;
+    align-items: center;
+    
+}
+.photo:hover{
+    background-color: chartreuse;
+}
+
 /*======================== footer =========================*/
 
 
 footer{
-    background-color: rgb(15, 2, 28);
+    background-color: rgb(45, 32, 57);
 }
 
 .footer-games{
@@ -247,4 +283,11 @@ footer{
 
 .icons{
     color: white;
+    align-items: center;
+   justify-content: center;
+    text-align: center;
+    display: flex;
+    column-gap: 30px;
+    
+  
 }
