@@ -1,0 +1,39 @@
+
+
+header {
+    padding: 50px 150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav >ul {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+nav li {
+    list-style: none;
+   margin-right: 20px;
+}
+nav li a{
+    text-decoration: none;
+}
+.logo{
+    height: 30px;
+}
+.Gamer{
+    display: flex;
+    align-items: center;
+}
+.color{
+    color: rgb(228, 10, 162);
+}
+.follow{
+    display: flex;
+}
