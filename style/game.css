@@ -174,3 +174,55 @@ border: none;
     height: 250px;
     gap: 20px;
 }
+
+
+
+
+
+/*======================== footer =========================*/
+
+
+footer{
+    background-color: rgb(15, 2, 28);
+}
+
+.footer-games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+    font-weight: 500;
+}
+.footer-game >ul{
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-game li{
+    list-style: none;
+    gap: 10px;
+}
+
+.play-games{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.Conditions >ul{
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.Conditions li{
+    list-style: none;
+    
+}
