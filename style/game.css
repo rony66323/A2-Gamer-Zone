@@ -2,12 +2,16 @@
 
 header {
     padding: 50px 150px;
+    background-color: antiquewhite;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: aliceblue;
+    box-shadow: 5px;
+    
 }
 
 nav >ul {
@@ -36,4 +40,53 @@ nav li a{
 }
 .follow{
     display: flex;
+}
+
+
+
+/* banner */
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+
+.banner-pic{
+    height: 400px;
+    width: 450px ;
+}
+
+.banner{
+    padding-top: 60px;
+    padding-left: 25px;
+}
+
+.item{
+    list-style: none;
+    align-items: center;
+}
+.goat{
+    font-size: 3em;
+    color:rgb(205, 68, 173) ;
+    
+}
+.play{
+    font-size: 2em;
+  
+}
+
+.Sign{
+background-color: rgb(244, 24, 214);
+padding: 5px 10px;
+border-radius: 5px;
+border: none;
+
+}
+.Go{
+background-color: rgb(12, 197, 226);
+padding: 5px 10px;
+border-radius: 5px;
+border: none;
 }
