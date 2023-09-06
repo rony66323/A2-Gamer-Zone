@@ -176,9 +176,27 @@ border: none;
 }
 
 
+/*========= Play Games Online Anywhere, Anytime!========== */
 
+.play-container{
+    display: flex;
+    padding: 50px 150px;
+    justify-content: space-between;
+}
 
+.play-title{
+   
+    text-align: left;
+}
+.first-pic{
+    height: 200px;
+    width: 200px;
+}
 
+.scoend-pic{
+    width: 500px;
+    height: 400px;
+}
 /*======================== footer =========================*/
 
 
@@ -225,4 +243,8 @@ footer{
 .Conditions li{
     list-style: none;
     
+}
+
+.icons{
+    color: white;
 }
